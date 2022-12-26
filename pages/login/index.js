@@ -52,7 +52,7 @@ function Login({isDialogForm, handleClose, selectedRow, isEdit}) {
   return (
       <>
       {!isDialogForm?
-      <Box sx={{padding: '30%', display: 'grid', justifyContent: 'center'}}>
+      <Box sx={{padding: '15%', display: 'grid', justifyContent: 'center'}}>
         <Typography sx={{paddingBottom: '8px', fontSize: 'medium'}}>Type your email and password</Typography>
             <Stack spacing={2}>
                 <TextField placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
